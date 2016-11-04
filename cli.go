@@ -11,7 +11,7 @@ func main() {
   app.Name = "pomogoro"
   app.Usage = "Track those tasks and FINISH THEM"
   app.Action = func(c *cli.Context) error {
-    fmt.Println("tracking....")
+    fmt.Println("Tracking....")
     return nil
   }
 
