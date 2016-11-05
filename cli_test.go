@@ -1,9 +1,15 @@
-package main_test
+package main
 
 import (
-  "testing"
+	"reflect"
+	"testing"
+	"time"
 )
 
-func TestTimer(t *testing.T) {
-
+func TestStartTimer(t *testing.T) {
+	var timer *time.Timer
+	testTimer := StartTimer(5)
+	if reflect.TypeOf(testTimer) != reflect.TypeOf(timer) {
+		t.Error("Start Timer did not create a new timer")
+	}
 }

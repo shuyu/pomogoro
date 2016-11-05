@@ -2,6 +2,7 @@
 
 ## Tasks / Todo
 X can be called from the command line on installation
+- runs as a background process
 - has a timer that counts like a stopwatch
 - plays a sound after every x minutes
 - saves time tracked in different categories
